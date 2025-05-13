@@ -11,7 +11,7 @@ setOptions({
   hierarchyRootSeparator: /\|/,
   sidebarAnimations: false,
 });
-
+  <Provider store={store}>
 const req = require.context('../stories/', true, /\.story\.tsx?$/);
 
 const loadStories = () => {
